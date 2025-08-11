@@ -1,0 +1,3 @@
+NAME: ScanObjectNN
+ROOT: /data/renbin/datasets/ScanObjectNN/h5_files/main_split
+N_POINTS: 8192
