@@ -3,8 +3,7 @@ import random
 import numpy as np
 import torch
 from fvcore.common.checkpoint import get_missing_parameters_message, get_unexpected_parameters_message
-from timm.layers import trunc_normal_
-from timm.models.layers import DropPath
+from timm.models.layers import DropPath, trunc_normal_
 from torch import nn
 
 from modules.networks import Group, Encoder

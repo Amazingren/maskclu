@@ -1,4 +1,4 @@
 NAME: ShapeNet
-DATA_PATH: /data/renbin/datasets/ShapeNet55_MAE
+DATA_PATH: /data/renbin/datasets/ShapeNet55/ShapeNet55_MAE
 N_POINTS: 8192
 PC_PATH: /data/renbin/datasets/ShapeNet55/shapenet_pc

@@ -150,6 +150,7 @@ def run_net(args, config, train_writer=None, val_writer=None):
             else:
                 losses.update([loss.item()])
                 ass_losses.update([ass_loss.item()])
+                # ass_losses.update([ass_loss.mean().item()])
 
             if args.distributed:
                 torch.cuda.synchronize()
@@ -157,6 +158,7 @@ def run_net(args, config, train_writer=None, val_writer=None):
             if train_writer is not None:
                 train_writer.add_scalar('Loss/Batch/Loss', loss.item(), n_itr)
                 train_writer.add_scalar('Loss/Batch/Assign loss', ass_loss.item(), n_itr)
+                # train_writer.add_scalar('Loss/Batch/Assign loss', ass_loss.mean().item(), n_itr)
                 train_writer.add_scalar('Loss/Batch/LR', optimizer.param_groups[0]['lr'], n_itr)
 
             batch_time.update(time.time() - batch_start_time)
@@ -185,6 +187,7 @@ def run_net(args, config, train_writer=None, val_writer=None):
         if epoch % 25 == 0 and epoch >= 250:
             builder.save_checkpoint(
                 base_model, optimizer, epoch, metrics, best_metrics, f'ckpt-epoch-{epoch:03d}', args, logger=logger)
+            
     if train_writer is not None:
         train_writer.close()
     if val_writer is not None:
