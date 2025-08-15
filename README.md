@@ -1,4 +1,4 @@
-# maskclu (Code Under Construction)
+# MaskClu: Masked Clustering Prediction for Unsupervised Point Cloud Pre-training (Code Under Construction)
 Maskclu
 
 
