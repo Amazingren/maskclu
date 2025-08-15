@@ -1,4 +1,4 @@
-# maskclu
+# maskclu (Code Under Construction)
 Maskclu
 
 
@@ -8,8 +8,6 @@ python >= 3.7
 CUDA >= 9.0
 GCC >= 4.9
 torchvision
-
-
 
 ### Maskclu Pre-training
 To pretrain MaskClu on ShapeNet training set, run the following command. If you want to try different models or masking ratios etc., first create a new config file, and pass its path to --config.
@@ -23,8 +21,8 @@ python main.py --config cfgs/pretrain.yaml --exp_name <output_file_name>
 Fine-tuning on ModelNet40, run:
 
 ```
-python main.py --config cfgs/finetune_modelnet.yaml \
-    --finetune_model --exp_name <output_file_name> --ckpts <path/to/pre-trained/model>
+CUDA_VISIBLE_DEVICES=0 python main.py --config cfgs/finetune_modelnet.yaml \
+    --finetune_model --exp_name modelnet40 --ckpts exps/pretrain/cfgs/maskclu_pretrain/ckpt-epoch-300.pth
 ```
 
 ### Voting on ModelNet40, run:
