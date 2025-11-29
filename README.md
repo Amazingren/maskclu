@@ -1,6 +1,10 @@
 # MaskClu: Masked Clustering Prediction for Unsupervised Point Cloud Pre-training (Code Under Construction)
 Maskclu
 
+
+### News:
+Our paper is accepted by AAAI2026 as Oral!
+
 ### Requirements
 PyTorch >= 1.7.0
 python >= 3.7
