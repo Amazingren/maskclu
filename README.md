@@ -83,3 +83,25 @@ Part segmentation on ShapeNetPart, run:
 ```
 python trainpartseg.py --ckpts <path/to/pre-trained/model> --root path/to/data --learning_rate 0.0002 --epoch 300
 ```
+
+
+## <a name="cite"></a> 🥰 Citation
+Please cite us if our work is useful for your research.
+
+```
+@article{ren2025masked,
+  title={Masked Clustering Prediction for Unsupervised Point Cloud Pre-training},
+  author={Ren, Bin and Huang, Xiaoshui and Liu, Mengyuan and Liu, Hong and Poiesi, Fabio and Sebe, Nicu and Mei, Guofeng},
+  journal={arXiv preprint arXiv:2508.08910},
+  year={2025}
+}
+```
+
+
+## License
+
+Since this work based on the pre-trained VAR models, users should follow the license of the corresponding backbone models like [HART(MIT License)](https://github.com/mit-han-lab/hart) and [Infinity(MIT License)](https://github.com/FoundationVision/Infinity?tab=readme-ov-file). 
+
+
+## Contact
+If you have any questions during your reproduce, feel free to approach me at bin.ren.mondo@gmail.com
