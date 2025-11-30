@@ -1,9 +1,47 @@
-# MaskClu: Masked Clustering Prediction for Unsupervised Point Cloud Pre-training (Code Under Construction)
-Maskclu
+<h2>
+Masked Clustering Prediction for Unsupervised Point Cloud Pre-trainin (AAAI'26, Oral) [Under Construction]
+</h2>
 
 
-### News:
-Our paper is accepted by AAAI2026 as Oral!
+The official implementation of our work: <strong>MaskClu</strong>.
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Amazingren.maskclu)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.23367-b31b1b.svg)](https://arxiv.org/pdf/2508.08910)
+[![Homepage](https://img.shields.io/badge/Project-Page-orange)](https://arxiv.org/pdf/2508.08910)
+
+#### $^\star$[Bin Ren](https://amazingren.github.io/)<sup>1,2</sup>, $^\star$[Xiaoshui Huang](https://xiaoshuihuang.github.io/)<sup>3</sup>, [Mengyuan Liu](https://scholar.google.com/citations?user=woX_4AcAAAAJ&hl=en)<sup>4</sup>, [Hong Liu](https://scholar.google.com/citations?user=WLMUAjsAAAAJ&hl=zh-CN)<sup>4</sup>, [Fabio Poiesi](https://scholar.google.com/citations?user=BQ7li6AAAAAJ&hl=zh-CN) <sup>5</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>1</sup>, $^\dagger$[Guofeng Mei](https://scholar.google.com/citations?user=VsmIGqsAAAAJ&hl=en)<sup>5</sup>
+$^\star$: Equal Contribution, $^\dagger$: Corresponding Author <br>
+
+<sup>1</sup> University of Trento, Italy <br>
+<sup>2</sup> University of Pisa, Italy <br>
+<sup>3</sup> Shanghai Jiao Tong University, China <br>
+<sup>4</sup> Peking University, China <br>
+<sup>5</sup> Fondazione Bruno Kessler, Italy <br>
+
+
+## <a name="todo"></a> ☑️ TODO
+
+- [x] arXiv version available
+- [x] Release code (Under Construction)
+- [ ] Project Page
+- [ ] Further improvements
+
+</div>
+
+> **Abstract:**  Vision transformers (ViTs) have recently been widely applied to 3D point cloud understanding, with masked autoencoding as the predominant pre-training paradigm. However, the challenge of learning dense and informative semantic features from point clouds via standard ViTs remains underexplored. We propose MaskClu, a novel unsupervised pre-training method for ViTs on 3D point clouds that integrates masked point modeling with clustering-based learning. MaskClu is designed to reconstruct both cluster assignments and cluster centers from masked point clouds, thus encouraging the model to capture dense semantic information. 
+Additionally, we introduce a global contrastive learning mechanism that enhances instance-level feature learning by contrasting different masked views of the same point cloud. 
+By jointly optimizing these complementary objectives, i.e., dense semantic reconstruction, and instance-level contrastive learning. MaskClu enables ViTs to learn richer and more semantically meaningful representations from 3D point clouds.
+We validate the effectiveness of our method via multiple 3D tasks, including part segmentation, semantic segmentation, object detection, and classification, where MaskClu sets new competitive results.
+Our code will be released at: https://github.com/Amazingren/maskclu.
+
+
+⭐If this work is helpful for you, please help star this repo. Thanks!🤗
+
+
+## Dataset Preparation:
+TBD
+
+
 
 ### Requirements
 PyTorch >= 1.7.0
