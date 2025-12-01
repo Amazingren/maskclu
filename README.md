@@ -18,6 +18,19 @@ $^\star$: Equal Contribution, $^\dagger$: Corresponding Author <br>
 <sup>4</sup> Peking University, China <br>
 <sup>5</sup> Fondazione Bruno Kessler, Italy <br>
 
+## 📑 Contents
+
+- [News](#news)
+- [TODO](#todo)
+- [Results](#results)
+- [Citation](#cite)
+
+## <a name="news"></a> 🆕 News
+
+- **2025-12:** We're working on releasing the code!
+- **2025-11:** Congrats! Our MaskClu has been accepted by AAAI2026 as Oral😊
+- **2025-08:** arXiv paper available.
+
 
 ## <a name="todo"></a> ☑️ TODO
 
