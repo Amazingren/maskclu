@@ -29,7 +29,7 @@ $^\star$: Equal Contribution, $^\dagger$: Corresponding Author <br>
 
 - **2025-12:** We're working on releasing the code!
 - **2025-11:** Congrats! Our MaskClu has been accepted by AAAI2026 as Oral😊
-- **2025-08:** arXiv paper available.
+- **2025-08:** Our paper is available on arXiv.
 
 
 ## <a name="todo"></a> ☑️ TODO
