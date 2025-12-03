@@ -34,10 +34,9 @@ $^\star$: Equal Contribution, $^\dagger$: Corresponding Author <br>
 
 ## <a name="todo"></a> ☑️ TODO
 
-- [x] arXiv version available
-- [x] Release code (Under Construction)
-- [ ] Project Page
 - [ ] Further improvements
+- [x] Release code (Under Construction)
+- [x] arXiv version available
 
 </div>
 
@@ -62,6 +61,7 @@ python >= 3.7
 CUDA >= 9.0
 GCC >= 4.9
 torchvision
+
 
 ### Maskclu Pre-training
 To pretrain MaskClu on ShapeNet training set, run the following command. If you want to try different models or masking ratios etc., first create a new config file, and pass its path to --config.
