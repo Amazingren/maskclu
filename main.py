@@ -16,7 +16,7 @@ from tools.pretrain import run_net as pretrain
 def parse_args():
     """PARAMETERS"""
     parser = argparse.ArgumentParser('maskclu Model')
-    parser.add_argument('--model', default='maskclu', help='model name [default: Cluster]')
+    parser.add_argument('--model', default='maskclu', help='model name [default: maskclu]')
     parser.add_argument('--config', type=str, help='yaml config file')
     parser.add_argument('--launcher', choices=['none', 'pytorch'], default='none', help='job launcher')
     parser.add_argument('--local_rank', type=int, default=0)
