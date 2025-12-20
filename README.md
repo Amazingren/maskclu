@@ -69,7 +69,7 @@ pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https
 conda install -c pytorch faiss-gpu
 
 # Step3: 
-pip install -e requirements.txt
+pip install -r requirements.txt
 
 # Step4:
 pip install https://data.pyg.org/whl/torch-2.1.0%2Bcu121/torch_cluster-1.6.3%2Bpt21cu121-cp311-cp311-linux_x86_64.whl
